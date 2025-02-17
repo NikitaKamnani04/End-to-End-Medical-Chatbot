@@ -1,0 +1,76 @@
+# This file created by conda-build 25.1.1
+# meta.yaml template originally from:
+# C:\b\abs_221m046x58\clone\recipe, last modified Mon Jan 27 15:34:10 2025
+# ------------------------------------------------
+
+package:
+  name: pip
+  version: '25.0'
+source:
+  sha256: 8e0a97f7b4c47ae4a494560da84775e9e2f671d415d8d828e052efefb206b30b
+  url: https://pypi.io/packages/source/p/pip/pip-25.0.tar.gz
+build:
+  disable_pip: true
+  entry_points:
+    - pip = pip._internal.cli.main:main
+    - pip3 = pip._internal.cli.main:main
+  number: '0'
+  string: py312haa95532_0
+requirements:
+  host:
+    - bzip2 1.0.8 h2bbff1b_6
+    - ca-certificates 2024.12.31 haa95532_0
+    - expat 2.6.4 h8ddb27b_0
+    - libffi 3.4.4 hd77b12b_1
+    - openssl 3.0.15 h827c3e9_0
+    - python 3.12.8 h14ffc60_0
+    - setuptools 75.1.0 py312haa95532_0
+    - sqlite 3.45.3 h2bbff1b_0
+    - tk 8.6.14 h0416ee5_0
+    - tzdata 2025a h04d1e81_0
+    - vc 14.40 haa95532_2
+    - vs2015_runtime 14.42.34433 h9531ae6_2
+    - wheel 0.44.0 py312haa95532_0
+    - xz 5.4.6 h8cc25b3_1
+    - zlib 1.2.13 h8cc25b3_1
+  run:
+    - python >=3.12,<3.13.0a0
+    - setuptools
+    - wheel
+test:
+  commands:
+    - pip -h
+    - pip list
+  imports:
+    - pip
+about:
+  description: 'pip is the package installer for Python.
+
+    You can use pip to install packages from the Python Package
+
+    Index and other indexes.
+
+    '
+  dev_url: https://github.com/pypa/pip
+  doc_url: https://pip.pypa.io
+  home: https://pip.pypa.io
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: PyPA recommended tool for installing Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 22a82526-9805-40e9-ae5d-58986127a569
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/pip-feedstock.git
+  sha: 67dbdfff6a69f2bdf949f8141c5754d30bed5396
+  skip-lints:
+    - missing_pip_check
+    - python_build_tool_in_run
+    - uses_setup_py

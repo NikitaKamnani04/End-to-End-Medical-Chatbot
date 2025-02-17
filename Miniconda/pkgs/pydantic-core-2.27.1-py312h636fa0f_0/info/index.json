@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py312h636fa0f_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "typing-extensions >=4.6.0,!=4.7.0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pydantic-core",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1734728163098,
+  "version": "2.27.1"
+}

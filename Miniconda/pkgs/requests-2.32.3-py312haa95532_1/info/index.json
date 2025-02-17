@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py312haa95532_1",
+  "build_number": 1,
+  "constrains": [
+    "chardet >=3.0.2,<6",
+    "pysocks >=1.5.6,!=1.5.7"
+  ],
+  "depends": [
+    "certifi >=2017.4.17",
+    "charset-normalizer >=2,<4",
+    "idna >=2.5,<4",
+    "python >=3.12,<3.13.0a0",
+    "urllib3 >=1.21.1,<3"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "requests",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1731000788197,
+  "version": "2.32.3"
+}

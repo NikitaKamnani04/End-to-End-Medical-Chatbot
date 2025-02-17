@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h59b6b97_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/",
+  "constrains": [],
+  "depends": [
+    "fmt >=9.1.0,<10.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "spdlog-1.11.0-h59b6b97_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "c429092cde1f13e98dd9d16f2cafcbda",
+  "name": "spdlog",
+  "platform": "win32",
+  "sha256": "2c28ea2486474b6d2647890296a737f11a5caa089b55e4cd7cc8ecde3b6e1482",
+  "size": 199805,
+  "subdir": "win-64",
+  "timestamp": 1676361605000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/spdlog-1.11.0-h59b6b97_0.conda",
+  "version": "1.11.0"
+}

@@ -1,0 +1,77 @@
+# This file created by conda-build 24.7.1
+# meta.yaml template originally from:
+# C:\b\abs_25mqphatbo\clone\recipe, last modified Thu Sep  5 15:08:34 2024
+# ------------------------------------------------
+
+package:
+  name: openssl
+  version: 3.0.15
+source:
+  sha256: 23c666d0edf20f14249b3d8f0368acaee9ab585b09e1de82107c66e1f3ec9533
+  url: https://github.com/openssl/openssl/releases/download/openssl-3.0.15/openssl-3.0.15.tar.gz
+build:
+  binary_has_prefix_files: null
+  detect_binary_files_with_prefix: true
+  number: '0'
+  run_exports:
+    - openssl >=3.0.15,<4.0a0
+  string: h827c3e9_0
+requirements:
+  build:
+    - nasm 2.14.02 h7edc060_0
+    - perl 5.26.2.1 h0c8e037_0
+    - vs2015_runtime 14.40.33807 h98bb1dd_0
+    - vs2019_win-64 19.29.30154 h96f319f_5
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - vc 14.40 h2eaa2aa_0
+    - vs2015_runtime 14.40.33807 h98bb1dd_0
+  run:
+    - ca-certificates
+    - vc >=14.2,<15.0a0
+    - vs2015_runtime >=14.29.30133,<15.0a0
+test:
+  commands:
+    - copy NUL checksum.txt
+    - openssl sha256 checksum.txt
+    - openssl ecparam -name prime256v1
+    - if "%SSL_CERT_FILE%"=="" exit 1
+    - if not exist "%SSL_CERT_FILE%" exit 1
+    - python -c "import urllib.request; urllib.request.urlopen('https://pypi.org')"
+    - pkg-config --print-errors --exact-version "3.0.15" openssl
+  requires:
+    - pkg-config
+    - python 3.8.*
+about:
+  description: 'OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+
+    for the Transport Layer Security (TLS) protocol formerly known as the
+
+    Secure Sockets Layer (SSL) protocol. The protocol implementation is based
+
+    on a full-strength general purpose cryptographic library, which can also
+
+    be used stand-alone.
+
+    '
+  dev_url: https://github.com/openssl/openssl
+  doc_url: https://www.openssl.org/docs/man3.0/
+  home: https://www.openssl.org/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 25961ac6-0941-454a-8391-94639f1fa39a
+  recipe-maintainers:
+    - carlodri
+    - chenghlee
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/openssl-feedstock.git
+  sha: 772162b63626df93b2b6260cb4c3938d1add1eeb

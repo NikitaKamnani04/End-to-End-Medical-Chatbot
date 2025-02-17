@@ -1,0 +1,137 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "ee6f2c2b3c361f368c52c757d351adf1d829b6ab1b3e78dffd65221612806736",
+      "size_in_bytes": 1504
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "4844a434efa54b00e0940c4a8e192ab8dbd81aa5a7133663670377cac78b4c04",
+      "size_in_bytes": 692
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "e9b86e8c2f2d30459e85192a453db671654086dbb49bcb24d89e44a1b3c19b00",
+      "size_in_bytes": 1883
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "5b52250c0127053595916cc33269ccc354a4a03aadf5767ea25e9e41a99de31a",
+      "size_in_bytes": 99
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "068ba74aa0549742ad32afa2aabe20eff208ca1968e7f3c08b09d8d8a0223665",
+      "size_in_bytes": 64
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage-0.5.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f0bfbba74fc71e9a8c35509997698382b2dfb2c7d9ad87026693625a0b97a4f3",
+      "size_in_bytes": 20
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b7d299769fc322fbfdd64c8095ba9f5e4ae4cbfeb7aa2718ba3bc4fa777cc653",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/__init__.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "bb26ae1c1c00cc76e0bbf262e17220c8481addfcc0232a8cf9d697b31e878d84",
+      "size_in_bytes": 253
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/_version.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "bc95146f02a2e66d3d56c629df350c04da8fcdf85050db3c7eb0857072b125ab",
+      "size_in_bytes": 534
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/install.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "313f42f57a2c89506b1f01cf9bc63b5e98779a233eb08b025043be96a0053b37",
+      "size_in_bytes": 7624
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/patch.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8d0bea8fef89ddd0825ce1797a7926a93d6cf4cf4f044ff80b83b2b187e104f",
+      "size_in_bytes": 4449
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/plugin.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "8ba41f6ba541297c52fd4f83779b20c1a5d8c675340d32d211b73ff4a40c90ff",
+      "size_in_bytes": 1007
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/tokens.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "8c55939b248482809f282a9576959c6e4b72ee74bee0c955151a39d35ce40161",
+      "size_in_bytes": 5233
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/__pycache__/utils.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "6aeeec6554381d0477e6826c52100fd0ce20de8690518e15a03d95ff2295122b",
+      "size_in_bytes": 7526
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/_version.py",
+      "path_type": "hardlink",
+      "sha256": "722ae76d6435f29d387772f3afdc9b8bebf88db3e8ba8370a59c3e867c39e7a8",
+      "size_in_bytes": 518
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/patch.py",
+      "path_type": "hardlink",
+      "sha256": "dac84c805eba1699d94a2dd5d3a1d57d4cbf74f6c0122d68e8b41ed4a5f842e3",
+      "size_in_bytes": 4516
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/plugin.py",
+      "path_type": "hardlink",
+      "sha256": "299dd0e0cd203c280078dc701aece131792c6817fdf884746650a249debce80e",
+      "size_in_bytes": 608
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/tokens.py",
+      "path_type": "hardlink",
+      "sha256": "1a0c4a198c8a8067925fa82ec70d3cb6542fc3d3115d31628957e8de68c78d96",
+      "size_in_bytes": 4042
+    },
+    {
+      "_path": "Lib/site-packages/anaconda_anon_usage/utils.py",
+      "path_type": "hardlink",
+      "sha256": "12c895e594e036090f732b75b2f0da9ce864d4c234a488dd8d598ac9c69fc162",
+      "size_in_bytes": 7027
+    }
+  ],
+  "paths_version": 1
+}

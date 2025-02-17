@@ -1,0 +1,21 @@
+YEAR:
+  - 2022
+VER:
+  - 17
+# the VS update version.  This is the middle digit in the version reported in the VS help->about UI.  It is perhaps a more readily referenceable number.
+update_version:
+  - 10
+# this is the version number reported by cl.exe
+cl_version:
+  - 19.42.34436
+# this version follows the version number reported for the vcruntim140.dll file.
+#     This will be in a folder like C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Redist\MSVC\14.40.33807\x64\Microsoft.VC143.CRT
+#     Note the 14.40.33807 in there - that's what we want, but in case their folder scheme changes, it's better to base it on the version of the file itself.
+tools_version:
+  - 14.4
+runtime_version:
+  - 14.42.34433
+# SDK release page: https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
+sdk_version:
+  - 10.0.22621.0
+# we could zip all these together, and we should do that if there's ever more than one version supported at once.  I don't think that's currently possible, though.

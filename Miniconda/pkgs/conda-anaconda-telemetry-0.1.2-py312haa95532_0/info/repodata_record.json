@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/",
+  "constrains": [],
+  "depends": [
+    "conda >=24.11",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "conda-anaconda-telemetry-0.1.2-py312haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "44f4fdcd97baf0f216ae07890e923f2e",
+  "name": "conda-anaconda-telemetry",
+  "platform": "win32",
+  "sha256": "2bfdbda0c5117effcd7054e66ebe5677953af0885d7a6773d1c86a904738d49c",
+  "size": 15669,
+  "subdir": "win-64",
+  "timestamp": 1736524833000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/conda-anaconda-telemetry-0.1.2-py312haa95532_0.conda",
+  "version": "0.1.2"
+}

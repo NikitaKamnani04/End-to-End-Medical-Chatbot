@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py312h4fc1ca9_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.11",
+    "python >=3.12,<3.13.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0",
+    "zstd >=1.5.6,<1.5.7.0a0",
+    "zstd >=1.5.6,<1.6.0a0"
+  ],
+  "fn": "zstandard-0.23.0-py312h4fc1ca9_1.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "d9b59d11e97db293e7b32d3f8cda700f",
+  "name": "zstandard",
+  "platform": "win32",
+  "sha256": "9f857158338938a9e6bba9ee6aa116c8d4737bb059fbd3088359581ff703bf6c",
+  "size": 359450,
+  "subdir": "win-64",
+  "timestamp": 1731356797000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zstandard-0.23.0-py312h4fc1ca9_1.conda",
+  "version": "0.23.0"
+}

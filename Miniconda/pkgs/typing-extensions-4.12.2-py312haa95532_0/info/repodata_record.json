@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "typing_extensions 4.12.2 py312haa95532_0"
+  ],
+  "fn": "typing-extensions-4.12.2-py312haa95532_0.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "md5": "9fc6b7508933ca52a8bb3927292af6ef",
+  "name": "typing-extensions",
+  "platform": "win32",
+  "sha256": "a78e159fdc7b1bed9297b4d28d42281a53cbafc32377e1c0c3a87bd1a3d74e7c",
+  "size": 10232,
+  "subdir": "win-64",
+  "timestamp": 1734715143000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/typing-extensions-4.12.2-py312haa95532_0.conda",
+  "version": "4.12.2"
+}

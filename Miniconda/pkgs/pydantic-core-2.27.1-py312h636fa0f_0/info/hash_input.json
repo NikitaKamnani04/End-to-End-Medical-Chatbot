@@ -1,0 +1,7 @@
+{
+  "rust_compiler": "rust",
+  "c_compiler": "vs2019",
+  "channel_targets": "defaults",
+  "rust_compiler_version": "1.82.0",
+  "target_platform": "win-64"
+}

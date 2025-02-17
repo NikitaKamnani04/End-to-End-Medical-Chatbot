@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "pygments-2.15.1-py312haa95532_1.conda",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "e1fd172466b4eee981eaf2247ec56d93",
+  "name": "pygments",
+  "platform": "win32",
+  "sha256": "56b4f39c3b410986f1d394d0fc6c5f00bf0a223be21ab18e1ff6c615aa397a7f",
+  "size": 1865347,
+  "subdir": "win-64",
+  "timestamp": 1699474188000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pygments-2.15.1-py312haa95532_1.conda",
+  "version": "2.15.1"
+}

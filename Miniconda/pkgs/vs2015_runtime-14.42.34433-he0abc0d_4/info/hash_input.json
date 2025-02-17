@@ -1,0 +1,8 @@
+{
+  "runtime_version": "14.42.34433",
+  "cl_version": "19.42.34436",
+  "channel_targets": "defaults",
+  "sdk_version": "10.0.22621.0",
+  "target_platform": "win-64",
+  "update_version": "10"
+}

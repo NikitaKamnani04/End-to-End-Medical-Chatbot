@@ -1,0 +1,66 @@
+# This file created by conda-build 24.11.2
+# meta.yaml template originally from:
+# C:\b\abs_2an29kqpjk\clone\recipe, last modified Wed Dec 11 22:58:27 2024
+# ------------------------------------------------
+
+package:
+  name: expat
+  version: 2.6.4
+source:
+  sha256: 8dc480b796163d4436e6f1352e71800a774f73dbae213f1860b60607d2a83ada
+  url: https://github.com/libexpat/libexpat/releases/download/R_2_6_4/expat-2.6.4.tar.bz2
+build:
+  number: '0'
+  run_exports:
+    - expat >=2.6.4,<3.0a0
+  string: h8ddb27b_0
+requirements:
+  build:
+    - bzip2 1.0.8 h2bbff1b_6
+    - cmake 3.26.4 h693b641_0
+    - libuv 1.48.0 h827c3e9_0
+    - lz4-c 1.9.4 h2bbff1b_1
+    - vc 14.40 haa95532_2
+    - vs2015_runtime 14.42.34433 h9531ae6_2
+    - vs2019_win-64 19.29.30154 h96f319f_5
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.4.6 h8cc25b3_1
+    - zlib 1.2.13 h8cc25b3_1
+    - zstd 1.5.6 h8880b57_0
+  host:
+    - vc 14.40 haa95532_2
+    - vs2015_runtime 14.42.34433 h9531ae6_2
+  run:
+    - vc >=14.2,<15.0a0
+    - vs2015_runtime >=14.29.30133,<15.0a0
+test:
+  commands:
+    - xmlwf -h
+about:
+  description: 'Expat is a stream-oriented XML parser library written in C.
+
+    Expat excels with files too large to fit RAM, and where performance
+
+    and flexibility are crucial.
+
+    '
+  dev_url: https://github.com/libexpat/libexpat
+  doc_url: https://libexpat.github.io/doc/
+  home: https://libexpat.github.io
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: Expat XML parser library in C
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 2ad622e2-6e57-4384-b357-90435fcbd265
+  recipe-maintainers:
+    - kwilcox
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - pelson
+    - scopatz
+  remote_url: git@github.com:AnacondaRecipes/expat-feedstock.git
+  sha: 84120e8bef5bb45409d784d03b5b663f4e620cd4

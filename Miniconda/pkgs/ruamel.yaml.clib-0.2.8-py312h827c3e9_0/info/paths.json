@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/_ruamel_yaml.cp312-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "63400f1cefdce4cb0a58a4ed0f65dc6fe02f9d1d5d7ec4184683f1c8d1303d7c",
+      "size_in_bytes": 278808
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "5458f90e82366f660f956b3c929ba5f7a0efdb99a99a847e2f51f2020ffbe887",
+      "size_in_bytes": 1121
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "331c06dd7fc8df3b77843ff364227ea6f108efcfd8b0a4df4e12e918c7fe5cdf",
+      "size_in_bytes": 2275
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "4270883feac981fcf8605fd3380dcc985deadf96485f16891afa562f6a00fe02",
+      "size_in_bytes": 827
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "73b4961b5fe146f73d1d71c49265a54eed49af85a9cd1b9c7f3a933feffcab4b",
+      "size_in_bytes": 102
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "d66922a836d9679791904ee3f236066d6220c2a932149966a068e5ac763771a1",
+      "size_in_bytes": 96
+    },
+    {
+      "_path": "Lib/site-packages/ruamel.yaml.clib-0.2.8.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "d6c25b6b7206776b1a6f7bbfea45b234f4bcc86fc01ed3f425d99a0e80785c1d",
+      "size_in_bytes": 20
+    }
+  ],
+  "paths_version": 1
+}
