@@ -1,7 +1,0 @@
-{
-  "channel_targets": "defaults",
-  "c_compiler": "vs2019",
-  "zlib": "1.2",
-  "libcurl": "8.1.1",
-  "target_platform": "win-64"
-}
